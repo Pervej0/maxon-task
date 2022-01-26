@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap");
+
+/* font-family: "Poppins", sans-serif;
+font-family: "Roboto", sans-serif;
+ */
+
+body {
+  background-color: #ede9e9;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Poppins", sans-serif;
+  color: #112e41;
+}
+
+h6,
+p,
+span,
+small,
+a,
+.footer-service-item,
+.text-gray {
+  font-family: "Roboto", sans-serif;
+  color: #888888;
+  font-size: 15px;
+}
+
+.orange-color {
+  color: #ff7214;
+  font-weight: 500;
+}
+
+.yellowBtn {
+  font-size: 14px;
+  background-color: #ff7214;
+  font-weight: 600;
+}
+
+.navbar-brand {
+  color: #323541;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+header .nav-item a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #323541;
+  cursor: pointer;
+  margin-left: 2rem;
+}
+
+@media (max-width: 999px) {
+  header .nav-item a {
+    margin-left: 0;
+  }
+}
+
+/* features-section */
+.features-section img {
+  border-radius: 50px;
+  padding: 15px;
+}
+.features-section .box:nth-child(1) img {
+  background-color: #f8e2d2;
+}
+.features-section .box:nth-child(2) img {
+  background-color: #e4daff;
+}
+.features-section .box:nth-child(3) img {
+  background-color: rgba(213, 248, 255, 0.438);
+}
+.features-section .box:nth-child(4) img {
+  background-color: #fcd8e9;
+}
+
+/* client-section */
+
+.text-dark {
+  color: #112e41;
+  font-weight: 600;
+}
+.text-yellow {
+  color: #ff7214;
+  font-weight: 600;
+}
+
+/* counter-section */
+.counter-section {
+  background-color: #162b45;
+  min-height: 55vh;
+}
+
+.counter-section h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+.counter-section p {
+  font-size: 1.1rem;
+}
+
+@media (max-width: "999px") {
+  .counter-section p {
+    font-size: 0.8rem;
+  }
+}
+
+/* @media (max-width: "390px") {
+  .counter-section .row .col-6 {
+    width: 100% !important;
+  }
+} */
+
+/* testimonial section */
+
+.testimonial-section .owl-carousel .owl-nav {
+  position: absolute;
+  right: 40%;
+  top: 20%;
+  z-index: 2;
+}
+
+.testimonial-section .owl-carousel .owl-nav button {
+  color: #ff7214;
+}
+
+.testimonial-section .video-icon {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* team section */
+
+.team-section ul li {
+  font-family: "Roboto", sans-serif;
+  color: #888888;
+  font-size: 15px;
+}
+
+.team-section ul li a {
+  text-decoration: none;
+}
+
+/* blog section */
+.blog-category,
+.blog-reaction {
+  font-size: 12px;
+}
+
+/* contactUs section */
+.contact-section ul li {
+  font-size: 15px;
+  color: #888888;
+}
+
+.contact-section form input::placeholder {
+  font-size: 15px;
+  color: #888888;
+}
+
+/* footer section */
+.footer-section {
+  background-color: #162b45;
+}
+
+.last-footer {
+  background-color: #10233a;
+}
