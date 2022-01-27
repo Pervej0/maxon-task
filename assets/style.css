@@ -38,6 +38,13 @@ a,
   font-size: 14px;
   background-color: #ff7214;
   font-weight: 600;
+  transition: 0.4s all ease;
+  border: 2px solid #ff7214;
+}
+
+.yellowBtn:hover {
+  background-color: transparent;
+  color: #112e41 !important;
 }
 
 .navbar-brand {
@@ -45,6 +52,14 @@ a,
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 1.8rem;
+}
+
+.navbar-brand:hover {
+  color: initial;
+}
+
+header .navbar-nav .nav-link:hover {
+  color: #ff7214 !important;
 }
 
 header .nav-item a {
@@ -130,10 +145,15 @@ header .nav-item a {
   color: #ff7214;
 }
 
-.testimonial-section .video-icon {
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+@media (max-width: 525px) {
+  .testimonial-section .owl-carousel .owl-nav {
+    right: 20%;
+  }
+}
+@media (max-width: 375px) {
+  .testimonial-section .owl-carousel .owl-nav {
+    right: 5%;
+  }
 }
 
 /* team section */
@@ -146,6 +166,11 @@ header .nav-item a {
 
 .team-section ul li a {
   text-decoration: none;
+  transition: 0.3s all ease;
+}
+
+.team-section ul li a:hover {
+  color: #ff7214;
 }
 
 /* blog section */
